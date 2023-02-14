@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  font-family: "Montserrat", sans-serif;
+  background: linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.447)),
+    url("../img/janis-rozenfelds-gCG5CyGf55g-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  color: white;
+  height: 99.5vh;
+  width: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.soon {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.263);
+  height: 30vh;
+  width: 70vh;
+  color: rgb(255, 255, 255);
+  -webkit-backdrop-filter: blur(50px);
+  backdrop-filter: blur(50px);
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.263);
+  padding: 25px;
+  margin: 0px;
+}
+
+.soon h1 {
+  margin-bottom: 0px;
+}
+
+.soon .btn-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.soon .discord {
+  display: flex;
+  flex-direction: row;
+  font-family: "Montserrat", sans-serif;
+  background-color: #5865f2;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-size: 2.3vh;
+  color: white;
+  margin: 0px 5px;
+}
+
+.soon .discord:hover {
+  box-shadow: 0 0 5px #5865f2;
+  transform: scale(1.02) perspective(1px);
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.soon .github {
+  display: flex;
+  flex-direction: row;
+  font-family: "Montserrat", sans-serif;
+  background-color: #333;
+  border: none;
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-size: 2.3vh;
+  color: white;
+  margin: 0px 5px;
+}
+
+.soon .github:hover {
+  box-shadow: 0 0 5px #333;
+  transform: scale(1.02) perspective(1px);
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.soon a {
+  color: white;
+  text-decoration: none;
+}
+
+@media (max-width: 600px) {
+    .soon {
+        width: 30vh;
+        padding: 5vh 5vh;
+    }
+
+    body {
+        background-size: cover;
+        background-position: center;
+        height: 98.1vh;
+    }
+}
